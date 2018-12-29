@@ -1,6 +1,6 @@
 .btn-random2 {
   outline: 0;
-  background: #fff;
+  background: ##ff9e9e;
   border: 1px solid #eee;
   padding: 6px 12px 7px;
   -webkit-border-radius: 100px;
@@ -36,7 +36,7 @@
 }
 .random-posts2 .item .thumb {
   overflow: hidden;
-  height: 160px;
+  height: 600px;
 }
 .random-posts2 .item .thumb img {
   -o-object-fit: cover;
