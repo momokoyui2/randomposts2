@@ -33,7 +33,7 @@ document.getElementsByClassName("btn-random2")[0].addEventListener("click", e =>
             }
             title = json.feed.entry[n].title.$t;
             if ("media$thumbnail" in json.feed.entry[n]) {
-              thumb = json.feed.entry[n].media$thumbnail.url.replace("s72-c", "s600");
+              thumb = json.feed.entry[n].media$thumbnail.url.replace("s72-c", "s400");
             } else {
               thumb = "https://3.bp.blogspot.com/-Yw8BIuvwoSQ/VsjkCIMoltI/AAAAAAAAC4c/s55PW6xEKn0/s1600-r/nth.png"
             }
