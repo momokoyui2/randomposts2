@@ -78,7 +78,3 @@
 .random-posts2 .item .content a:hover {
   text-decoration: underline;
 }
-@media screen and (max-width:680px){.random-posts2 .item .thumb {
-  overflow: hidden;
-  height: 180px;
-}}
