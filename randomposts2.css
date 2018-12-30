@@ -37,7 +37,7 @@
 }
 .random-posts2 .item .thumb {
   overflow: hidden;
-  height: 396px;
+  height: 600px;
 }
 .random-posts2 .item .thumb img {
   -o-object-fit: cover;
@@ -78,3 +78,7 @@
 .random-posts2 .item .content a:hover {
   text-decoration: underline;
 }
+@media screen and (max-width:680px){.random-posts2 .item .thumb {
+  overflow: hidden;
+  height: 180px;
+}}
